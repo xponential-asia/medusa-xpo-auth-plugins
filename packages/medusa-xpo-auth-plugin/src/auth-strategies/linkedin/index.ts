@@ -6,7 +6,7 @@ import {
 	getLinkedinStoreAuthRouter,
 	getLinkedinStoreStrategy,
 	LinkedinAuthOptions,
-} from '../linkedin';
+} from '.';
 
 export * from './types';
 export * from './admin';

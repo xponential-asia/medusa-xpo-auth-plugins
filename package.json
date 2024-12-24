@@ -1,8 +1,8 @@
 {
-  "name": "@medusa-plugins/medusa-plugins",
+  "name": "@medusa-plugins/medusa-xpo-auth-plugins",
   "private": true,
   "version": "0.0.0",
-    "description": "A collection of awesome plugins for medusa and medusa-extender 🚀",
+  "description": "A collection of awesome plugins for medusa and medusa-extender 🚀 (Xponential)",
   "engines": {
     "node": ">14.17.3"
   },
@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adrien2p/medusa-plugins.git"
+    "url": "https://github.com/xponential-asia/medusa-xpo-auth-plugins"
   },
-  "author": "Adrien de Peretti <adrien.deperetti@gmail.com",
+  "author": "Xponential",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adrien2p/medusa-plugins/issues"
+    "url": "https://github.com/xponential-asia/medusa-xpo-auth-plugins/issues"
   },
-  "homepage": "https://github.com/adrien2p/medusa-plugins#readme",
+  "homepage": "https://github.com/xponential-asia/medusa-xpo-auth-plugins#readme",
   "dependencies": {
     "rimraf": "^3.0.1"
   },
@@ -46,5 +46,6 @@
     "prettier": "^2.5.0",
     "tslint": "~6.1.0",
     "typescript": "^4.5.5"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

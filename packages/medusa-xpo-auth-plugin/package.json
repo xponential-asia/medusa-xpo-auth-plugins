@@ -1,5 +1,5 @@
 {
-  "name": "medusa-plugin-auth",
+  "name": "medusa-xpo-auth-plugin",
   "version": "1.11.1",
   "description": "Social authentication plugin for medusajs 1.x",
   "keywords": [

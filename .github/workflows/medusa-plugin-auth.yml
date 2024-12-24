@@ -1,4 +1,4 @@
-name: medusa-plugin-auth
+name: medusa-xpo-auth-plugin
 on:
   push:
     branches:
@@ -30,9 +30,9 @@ jobs:
           node-version: ${{ matrix.node-verion }}
 
       - name: 'yarn install'
-        working-directory: ./packages/medusa-plugin-auth
+        working-directory: ./packages/medusa-xpo-auth-plugin
         run: yarn
 
       - name: 'run unit tests'
-        working-directory: ./packages/medusa-plugin-auth
+        working-directory: ./packages/medusa-xpo-auth-plugin
         run: yarn run test
