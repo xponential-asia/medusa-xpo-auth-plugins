@@ -40,9 +40,9 @@ export function getAzureAdminStrategy(id: string): StrategyFactory<AzureAuthOpti
 			if (this.strategyOptions.admin.verifyCallback) {
 				return await this.strategyOptions.admin.verifyCallback(this.container, req, profile, this.strict);
 			}
-
+			const email = profile?.upn || profile?._json.unique_name || profile?._json.email;
 			const authprofile: Profile = {
-				emails: [{ value: profile?.upn }],
+				emails: [{ value: email }],
 				name: { givenName: profile?.name?.givenName, familyName: profile?.name?.familyName },
 			};
 
