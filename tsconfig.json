@@ -1,5 +1,4 @@
 {
-  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "declaration": true,
     "declarationMap": true,
@@ -10,8 +9,15 @@
     "esModuleInterop": true,
     "outDir": ".",
     "rootDir": "src",
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "target": "es2017",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "incremental": false
   },
   "include": ["src"],
-  "exclude": ["**/node_modules", "**/__tests__/*", "**/__e2e__/*"],
+  "exclude": ["**/node_modules", "**/__tests__/*", "**/__e2e__/*"]
 }
