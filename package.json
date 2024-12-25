@@ -25,7 +25,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xponential-asia/medusa-xpo-auth-plugins.git"
+    "url": "https://github.com/xponential-asia/medusa-xpo-auth-plugins.git"
   },
   "author": "Xponential",
   "files": [
