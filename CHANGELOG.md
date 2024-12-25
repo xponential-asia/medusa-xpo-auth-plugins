@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/xponential-asia/medusa-xpo-auth-plugins/compare/v1.0.4...v1.0.5) (2024-12-25)
+
+
+### Bug Fixes
+
+* Add before run npm publish step ([2c948cd](https://github.com/xponential-asia/medusa-xpo-auth-plugins/commit/2c948cdef02c21b925aaac112aa7fdd6f1adc4f0))
+
 ## [1.0.4](https://github.com/xponential-asia/medusa-xpo-auth-plugins/compare/v1.0.3...v1.0.4) (2024-12-25)
 
 
