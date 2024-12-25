@@ -26,7 +26,6 @@ jobs:
   release:
     name: Semantic Release
     runs-on: ubuntu-latest
-    needs: build  # This ensures 'release' job waits for 'build' to finish first
     strategy:
       matrix:
         node-version: [20.x]
