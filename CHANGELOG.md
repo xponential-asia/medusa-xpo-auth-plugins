@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/xponential-asia/medusa-xpo-auth-plugins/compare/v1.0.5...v1.0.6) (2024-12-25)
+
+
+### Bug Fixes
+
+* Remove needs build step ([02acde5](https://github.com/xponential-asia/medusa-xpo-auth-plugins/commit/02acde5f87d89946718737b1027afcffa1800c4c))
+
 ## [1.0.5](https://github.com/xponential-asia/medusa-xpo-auth-plugins/compare/v1.0.4...v1.0.5) (2024-12-25)
 
 
