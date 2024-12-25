@@ -40,10 +40,11 @@
   "scripts": {
     "build": "run-s clean build:tsc",
     "build:tsc:watch": "tsc --build ./tsconfig.json --watch",
-    "build:tsc": "tsc -b",
+    "build:tsc": "tsc -p tsconfig.json",
     "clean": "rimraf api services utils types loaders auth-strategies coverage tsconfig.tsbuildinfo",
     "test": "jest",
-    "test:ci": "yarn add -D @medusajs/medusa@${MEDUSAJS_VERSION} && yarn run test"
+    "test:ci": "yarn add -D @medusajs/medusa@${MEDUSAJS_VERSION} && yarn run test",
+    "prepare": "yarn build"
   },
   "peerDependencies": {
     "passport": "^0.6.0",
