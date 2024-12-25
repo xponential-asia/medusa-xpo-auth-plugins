@@ -1,5 +1,5 @@
 {
-  "name": "@xponential/medusa-plugin-auth",
+  "name": "medusa-plugin-auth-xponential",
   "version": "1.0.3",
   "description": "Social authentication plugin for medusajs 1.x",
   "keywords": [
