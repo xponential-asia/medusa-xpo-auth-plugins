@@ -1,11 +1,10 @@
----
 name: Release
 
 on:
   push:
     branches:
       - main
-      
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,11 +21,12 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn
-      - run: yarn build
+      - run: yarn build  # Build step
 
   release:
     name: Semantic Release
     runs-on: ubuntu-latest
+    needs: build  # This ensures 'release' job waits for 'build' to finish first
     strategy:
       matrix:
         node-version: [20.x]
