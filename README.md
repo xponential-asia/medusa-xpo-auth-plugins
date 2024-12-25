@@ -22,7 +22,7 @@
 
 ## Description
 
-Social authentication for the admin and store client.
+Social authentication for the admin and store client. 
 
 ## Getting started
 
