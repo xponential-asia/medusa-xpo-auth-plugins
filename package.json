@@ -1,6 +1,6 @@
 {
   "name": "medusa-plugin-auth-xponential",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Social authentication plugin for medusajs 1.x",
   "keywords": [
     "social",
