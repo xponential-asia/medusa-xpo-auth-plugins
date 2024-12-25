@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/xponential-asia/medusa-xpo-auth-plugins/compare/v1.0.1...v1.0.2) (2024-12-25)
+
+
+### Bug Fixes
+
+* Path of github host ([1798822](https://github.com/xponential-asia/medusa-xpo-auth-plugins/commit/179882283080b74a7d2de7d66d5af3882c4834f5))
+
 ## [1.0.1](https://github.com/xponential-asia/medusa-xpo-auth-plugins/compare/v1.0.0...v1.0.1) (2024-12-25)
 
 
