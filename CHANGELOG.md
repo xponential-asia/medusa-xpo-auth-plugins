@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/xponential-asia/medusa-xpo-auth-plugins/compare/v1.0.2...v1.0.3) (2024-12-25)
+
+
+### Bug Fixes
+
+* Scope name of package json file ([6ac418f](https://github.com/xponential-asia/medusa-xpo-auth-plugins/commit/6ac418f70ece6a4ef28b6d5fee4962172771fdb7))
+
 ## [1.0.2](https://github.com/xponential-asia/medusa-xpo-auth-plugins/compare/v1.0.1...v1.0.2) (2024-12-25)
 
 
