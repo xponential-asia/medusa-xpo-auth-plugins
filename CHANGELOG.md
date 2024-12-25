@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/xponential-asia/medusa-xpo-auth-plugins/compare/v1.0.0...v1.0.1) (2024-12-25)
+
+
+### Bug Fixes
+
+* Test bump version ([9bfd211](https://github.com/xponential-asia/medusa-xpo-auth-plugins/commit/9bfd2112d93a6dfb3857f2318dae1cd9a8d5bc86))
+
 # 1.0.0 (2024-12-25)
 
 
